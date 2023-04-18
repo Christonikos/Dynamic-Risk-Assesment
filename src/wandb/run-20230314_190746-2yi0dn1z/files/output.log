@@ -1,0 +1,5 @@
+[2023-03-14 19:08:39] INFO:
+                  Loaded artifact: deduped_dataframe:v0 with description The merged dataframe after duplicated values have been removed. to train the ML model.
+[2023-03-14 19:09:32] INFO:
+                  Loaded artifact: deduped_dataframe:v0 to train the ML model.
+                  The description of the artifact is: The merged dataframe after duplicated values have been removed. .

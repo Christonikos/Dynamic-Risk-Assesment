@@ -1,0 +1,35 @@
+[2023-04-11 18:26:01] INFO:  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+[2023-04-11 18:26:01] INFO:  * Restarting with stat
+wandb: Currently logged in as: christonikos. Use `wandb login --relogin` to force relogin
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+wandb: wandb version 0.14.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.5
+wandb: Run data is saved locally in /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230411_182602-2my1iqp2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_11_04_2023_18_26_01_model_deployment
+wandb: ⭐️ View project at https://wandb.ai/christonikos/dynamic_risk_assesment
+wandb: 🚀 View run at https://wandb.ai/christonikos/dynamic_risk_assesment/runs/2my1iqp2
+[2023-04-11 18:26:03] WARNING:  * Debugger is active!
+[2023-04-11 18:26:03] INFO:  * Debugger PIN: 168-125-425
+wandb: ERROR Failed to sample metric: process no longer exists (pid=17396)
+[4mReloaded modules[24m: utils, diagnostics_05
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+[2023-04-11 18:33:02] INFO:  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+[2023-04-11 18:33:02] INFO:  * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 168-125-425
+[4mReloaded modules[24m: utils, diagnostics_05
+[36m[1m__pycache__[39m[22m/       diagnostics_05.py  scoring_03.py      [36m[1mwandb[39m[22m/
+apicalls.py        fullprocess.py     tests.py           wsgi.py
+app.py             ingestion_01.py    training_02.py
+deployment_04.py   reporting_06.py    utils.py
+/Users/christoszacharopoulos/projects/dynamic_risk

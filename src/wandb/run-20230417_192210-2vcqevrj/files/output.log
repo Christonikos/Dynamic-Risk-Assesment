@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 237, in <module>
+    main(args)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 166, in main
+    model = load_production_model(args.config)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 40, in load_production_model
+    raise RuntimeError(
+RuntimeError: Multiple model files found in the production directory. Expected only one.

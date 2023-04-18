@@ -1,0 +1,10 @@
+New files found in source data files:
+['dataset4.csv', 'dataset3.csv']
+[2023-04-13 10:02:56] INFO: Reading input data from ../data/sourcedata
+[2023-04-13 10:02:56] INFO: Read 2 input files
+[2023-04-13 10:02:56] INFO: Concatenated 26 rows into output file
+[2023-04-13 10:02:56] INFO: Removed 0 duplicated rows
+[2023-04-13 10:02:56] INFO: Writing output file to ../data/ingesteddata
+[2023-04-13 10:02:56] INFO: Finished writing output file
+[2023-04-13 10:02:56] INFO: Logged ../data/ingesteddata/13_04_2023_10_02_56_finaldata.csv dataframe on WANDB in run_13_04_2023_10_02_48_full_process
+[4mReloaded modules[24m: utils, ingestion_01

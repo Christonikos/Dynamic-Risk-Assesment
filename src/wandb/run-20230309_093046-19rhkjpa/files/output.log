@@ -1,0 +1,7 @@
+[2023-03-09 09:30:49] INFO: Reading input data from ../data/practicedata
+[2023-03-09 09:30:49] INFO: Read 2 input files
+[2023-03-09 09:30:49] INFO: Concatenated 36 rows into output file
+[2023-03-09 09:30:49] INFO: Removed 10 duplicated rows
+[2023-03-09 09:30:49] INFO: Writing output file to ../data/ingesteddata
+[2023-03-09 09:30:49] INFO: Finished writing output file
+[2023-03-09 09:30:49] INFO: Logged ../data/ingesteddata/finaldata.csv dataframe on WANDB in run_09_03_2023_09_30_45_data_injestion

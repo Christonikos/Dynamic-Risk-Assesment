@@ -1,0 +1,55 @@
+2023-04-09 17:51:57,588 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Configure stats pid to 3370
+2023-04-09 17:51:57,588 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/.config/wandb/settings
+2023-04-09 17:51:57,588 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/settings
+2023-04-09 17:51:57,588 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-04-09 17:51:57,589 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/reporting.py', 'program': '/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting.py'}
+2023-04-09 17:51:57,589 INFO    MainThread:3370 [wandb_init.py:_log_setup():476] Logging user logs to /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_175157-30ftq63l/logs/debug.log
+2023-04-09 17:51:57,589 INFO    MainThread:3370 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_175157-30ftq63l/logs/debug-internal.log
+2023-04-09 17:51:57,589 INFO    MainThread:3370 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x144f5d190>
+2023-04-09 17:51:57,589 INFO    MainThread:3370 [wandb_init.py:init():516] calling init triggers
+2023-04-09 17:51:57,589 INFO    MainThread:3370 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-04-09 17:51:57,590 INFO    MainThread:3370 [wandb_init.py:init():569] starting backend
+2023-04-09 17:51:57,590 INFO    MainThread:3370 [wandb_init.py:init():573] setting up manager
+2023-04-09 17:51:57,592 INFO    MainThread:3370 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-04-09 17:51:57,596 INFO    MainThread:3370 [wandb_init.py:init():580] backend started and connected
+2023-04-09 17:51:57,600 INFO    MainThread:3370 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-04-09 17:51:57,600 INFO    MainThread:3370 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-04-09 17:51:57,601 INFO    MainThread:3370 [wandb_init.py:init():658] updated telemetry
+2023-04-09 17:51:57,626 INFO    MainThread:3370 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-04-09 17:51:58,265 INFO    MainThread:3370 [wandb_run.py:_on_init():2000] communicating current version
+2023-04-09 17:51:58,791 INFO    MainThread:3370 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.14.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-09 17:51:58,792 INFO    MainThread:3370 [wandb_init.py:init():728] starting run threads in backend
+2023-04-09 17:51:59,985 INFO    MainThread:3370 [wandb_run.py:_console_start():1980] atexit reg
+2023-04-09 17:51:59,985 INFO    MainThread:3370 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-04-09 17:51:59,986 INFO    MainThread:3370 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-04-09 17:51:59,986 INFO    MainThread:3370 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-04-09 17:51:59,986 INFO    MainThread:3370 [wandb_init.py:init():765] run started, returning control to user process
+2023-04-09 17:51:59,995 INFO    MainThread:3370 [wandb_init.py:_pause_backend():389] pausing backend
+2023-04-09 17:51:59,996 INFO    MainThread:3370 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-04-09 17:52:57,058 INFO    MainThread:3370 [wandb_init.py:_resume_backend():398] resuming backend
+2023-04-09 17:52:57,062 INFO    MainThread:3370 [wandb_init.py:_pause_backend():389] pausing backend
+2023-04-09 17:52:57,062 INFO    MainThread:3370 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-04-09 17:53:57,817 INFO    MainThread:3370 [wandb_init.py:_resume_backend():398] resuming backend
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Configure stats pid to 3370
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/.config/wandb/settings
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/settings
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/reporting.py', 'program': '/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting.py'}
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_init.py:_log_setup():476] Logging user logs to /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_175357-bszvne6b/logs/debug.log
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_175357-bszvne6b/logs/debug-internal.log
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_init.py:init():516] calling init triggers
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-04-09 17:53:57,864 INFO    MainThread:3370 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 30ftq63l
+2023-04-09 17:53:57,865 INFO    MainThread:3370 [wandb_run.py:_finish():1746] finishing run christonikos/dynamic_risk_assesment/30ftq63l
+2023-04-09 17:53:57,865 ERROR   MainThread:3370 [jupyter.py:save_history():440] Run pip install nbformat to save notebook history
+2023-04-09 17:53:57,865 INFO    MainThread:3370 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-04-09 17:53:57,866 INFO    MainThread:3370 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-04-09 17:53:57,866 INFO    MainThread:3370 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-04-09 17:53:57,866 INFO    MainThread:3370 [wandb_run.py:_restore():1932] restore
+2023-04-09 17:53:57,866 INFO    MainThread:3370 [wandb_run.py:_restore():1938] restore done
+2023-04-09 17:54:04,115 INFO    MainThread:3370 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-04-09 17:54:04,115 INFO    MainThread:3370 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-04-09 17:54:04,119 INFO    MainThread:3370 [wandb_run.py:_footer_sync_info():3333] logging synced files

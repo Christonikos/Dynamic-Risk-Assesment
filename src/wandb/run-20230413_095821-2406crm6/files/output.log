@@ -1,0 +1,8 @@
+[2023-04-13 09:58:40] INFO: Reading input data from ../data/sourcedata
+[2023-04-13 09:58:40] INFO: Read 2 input files
+[2023-04-13 09:58:40] INFO: Concatenated 26 rows into output file
+[2023-04-13 09:58:40] INFO: Removed 0 duplicated rows
+[2023-04-13 09:58:40] INFO: Writing output file to ../data/ingesteddata
+[2023-04-13 09:58:40] INFO: Finished writing output file
+[2023-04-13 09:58:40] INFO: Logged ../data/ingesteddata/finaldata.csv dataframe on WANDB in run_13_04_2023_09_58_20_full_process
+[4mReloaded modules[24m: utils, ingestion_01

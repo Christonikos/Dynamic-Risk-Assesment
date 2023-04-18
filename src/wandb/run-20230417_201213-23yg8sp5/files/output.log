@@ -1,0 +1,4 @@
+
+../images/confusion_matrix_LogisticRegression.png
+[2023-04-17 20:12:15] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-17 20:12:15] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees

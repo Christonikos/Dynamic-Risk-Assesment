@@ -1,0 +1,59 @@
+[2023-04-17 19:21:56] INFO: Reading input data from ../data/sourcedata
+[2023-04-17 19:21:56] INFO: Read 2 input files
+[2023-04-17 19:21:56] INFO: Concatenated 26 rows into output file
+[2023-04-17 19:21:56] INFO: Removed 0 duplicated rows
+[2023-04-17 19:21:56] INFO: Writing output file to ../data/ingesteddata
+[2023-04-17 19:21:56] INFO: Finished writing output file
+New files found in source data files:
+['dataset4.csv', 'dataset3.csv']
+[2023-04-17 19:21:57] INFO: Logged ../data/ingesteddata/17_04_2023_19_21_56_finaldata.csv dataframe on WANDB in run_17_04_2023_19_21_48_full_process
+[2023-04-17 19:21:57] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-17 19:21:57] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-17 19:21:57] INFO: Data preprocessing complete
+[2023-04-17 19:21:57] INFO: Model drift detected
+[2023-04-17 19:21:57] INFO:  Running deployment_04.py...
+wandb: Currently logged in as: christonikos. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.14.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.5
+wandb: Run data is saved locally in /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230417_192158-1t3eyd8v
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_17_04_2023_19_21_57_model_deployment
+wandb: ⭐️ View project at https://wandb.ai/christonikos/dynamic_risk_assesment
+wandb: 🚀 View run at https://wandb.ai/christonikos/dynamic_risk_assesment/runs/1t3eyd8v
+[2023-04-17 19:21:59] INFO: Starting model deployment...
+[2023-04-17 19:21:59] INFO: Model and reports deployed to ../production_deployment
+wandb: Waiting for W&B process to finish... (success).
+wandb:
+wandb: Run history:
+wandb:      data_ingestion_report_ctime ▁▁▁
+wandb: data_ingestion_report_size_bytes ▁▁▁
+wandb:          deployment_time_seconds ▁
+wandb:
+wandb: Run summary:
+wandb:      data_ingestion_report_ctime 1681752117.18913
+wandb: data_ingestion_report_size_bytes 154
+wandb:             deployment_directory ../production_deploy...
+wandb:          deployment_time_seconds 0.00212
+wandb:
+wandb: Synced run_17_04_2023_19_21_57_model_deployment: https://wandb.ai/christonikos/dynamic_risk_assesment/runs/1t3eyd8v
+wandb: Synced 6 W&B file(s), 0 media file(s), 3 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230417_192158-1t3eyd8v/logs
+[2023-04-17 19:22:08] INFO:  Running diagnostics_05.py...
+wandb: Currently logged in as: christonikos. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.14.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.5
+wandb: Run data is saved locally in /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230417_192210-2vcqevrj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_17_04_2023_19_22_09_model_and_data_diagnostics
+wandb: ⭐️ View project at https://wandb.ai/christonikos/dynamic_risk_assesment
+wandb: 🚀 View run at https://wandb.ai/christonikos/dynamic_risk_assesment/runs/2vcqevrj
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 237, in <module>
+    main(args)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 166, in main
+    model = load_production_model(args.config)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 40, in load_production_model
+    raise RuntimeError(
+RuntimeError: Multiple model files found in the production directory. Expected only one.

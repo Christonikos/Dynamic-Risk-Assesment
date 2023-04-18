@@ -1,0 +1,4 @@
+
+../images/confusionmatrix.png
+[2023-04-10 19:42:31] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-10 19:42:31] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees

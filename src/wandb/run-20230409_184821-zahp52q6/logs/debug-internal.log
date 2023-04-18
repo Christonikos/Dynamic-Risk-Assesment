@@ -1,0 +1,364 @@
+2023-04-09 18:48:29,481 INFO    StreamThr :4936 [internal.py:wandb_internal():88] W&B internal server running at pid: 4936, started at: 2023-04-09 18:48:29.479887
+2023-04-09 18:48:29,483 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: status
+2023-04-09 18:48:29,485 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: status
+2023-04-09 18:48:29,486 DEBUG   SenderThread:4936 [sender.py:send():303] send: header
+2023-04-09 18:48:29,487 INFO    WriterThread:4936 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/run-zahp52q6.wandb
+2023-04-09 18:48:29,487 DEBUG   SenderThread:4936 [sender.py:send():303] send: run
+2023-04-09 18:48:30,372 INFO    SenderThread:4936 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files
+2023-04-09 18:48:30,372 INFO    SenderThread:4936 [sender.py:_start_run_threads():928] run started: zahp52q6 with start time 1681058908.489806
+2023-04-09 18:48:30,373 DEBUG   SenderThread:4936 [sender.py:send():303] send: summary
+2023-04-09 18:48:30,373 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: check_version
+2023-04-09 18:48:30,373 INFO    SenderThread:4936 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-04-09 18:48:30,374 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: check_version
+2023-04-09 18:48:30,762 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: run_start
+2023-04-09 18:48:30,764 DEBUG   HandlerThread:4936 [system_info.py:__init__():31] System info init
+2023-04-09 18:48:30,764 DEBUG   HandlerThread:4936 [system_info.py:__init__():46] System info init done
+2023-04-09 18:48:30,765 INFO    HandlerThread:4936 [system_monitor.py:start():150] Starting system monitor
+2023-04-09 18:48:30,765 INFO    SystemMonitor:4936 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-09 18:48:30,765 INFO    HandlerThread:4936 [system_monitor.py:probe():168] Collecting system info
+2023-04-09 18:48:30,765 INFO    SystemMonitor:4936 [interfaces.py:start():168] Started cpu
+2023-04-09 18:48:30,766 DEBUG   HandlerThread:4936 [system_info.py:probe():195] Probing system
+2023-04-09 18:48:30,766 INFO    SystemMonitor:4936 [interfaces.py:start():168] Started disk
+2023-04-09 18:48:30,767 INFO    SystemMonitor:4936 [interfaces.py:start():168] Started gpuapple
+2023-04-09 18:48:30,773 DEBUG   HandlerThread:4936 [system_info.py:_probe_git():180] Probing git
+2023-04-09 18:48:30,775 INFO    SystemMonitor:4936 [interfaces.py:start():168] Started memory
+2023-04-09 18:48:30,776 INFO    SystemMonitor:4936 [interfaces.py:start():168] Started network
+2023-04-09 18:48:30,809 DEBUG   HandlerThread:4936 [system_info.py:_probe_git():188] Probing git done
+2023-04-09 18:48:30,810 DEBUG   HandlerThread:4936 [system_info.py:probe():241] Probing system done
+2023-04-09 18:48:30,810 DEBUG   HandlerThread:4936 [system_monitor.py:probe():177] {'os': 'macOS-12.6-arm64-arm-64bit', 'python': '3.9.16', 'heartbeatAt': '2023-04-09T16:48:30.766676', 'startedAt': '2023-04-09T16:48:21.970942', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/Christonikos/dynamic_risk.git', 'commit': '764d8a06ce1e62c3378d1d89bcb6e9a7b802923d'}, 'email': 'christonik@gmail.com', 'root': '/Users/christoszacharopoulos/projects/dynamic_risk', 'host': 'Christoss-MacBook-Air-2.local', 'username': 'christoszacharopoulos', 'executable': '/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 185.9572296142578}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-04-09 18:48:30,810 INFO    HandlerThread:4936 [system_monitor.py:probe():178] Finished collecting system info
+2023-04-09 18:48:30,810 INFO    HandlerThread:4936 [system_monitor.py:probe():181] Publishing system info
+2023-04-09 18:48:30,810 DEBUG   HandlerThread:4936 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-09 18:48:30,811 DEBUG   HandlerThread:4936 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-09 18:48:30,811 DEBUG   HandlerThread:4936 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-09 18:48:31,378 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/conda-environment.yaml
+2023-04-09 18:48:31,378 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/wandb-summary.json
+2023-04-09 18:48:31,378 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/requirements.txt
+2023-04-09 18:48:31,877 DEBUG   HandlerThread:4936 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-09 18:48:31,878 INFO    HandlerThread:4936 [system_monitor.py:probe():183] Finished publishing system info
+2023-04-09 18:48:31,878 DEBUG   SenderThread:4936 [sender.py:send():303] send: files
+2023-04-09 18:48:31,878 INFO    SenderThread:4936 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-04-09 18:48:31,883 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:48:31,883 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:48:31,961 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 18:48:31,961 INFO    HandlerThread:4936 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 18:48:31,961 INFO    HandlerThread:4936 [system_monitor.py:finish():160] Stopping system monitor
+2023-04-09 18:48:31,981 DEBUG   SystemMonitor:4936 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-09 18:48:31,981 DEBUG   SystemMonitor:4936 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-09 18:48:31,981 INFO    HandlerThread:4936 [interfaces.py:finish():173] Joined cpu
+2023-04-09 18:48:31,981 DEBUG   SystemMonitor:4936 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-09 18:48:31,981 INFO    HandlerThread:4936 [interfaces.py:finish():173] Joined disk
+2023-04-09 18:48:31,982 INFO    HandlerThread:4936 [interfaces.py:finish():173] Joined gpuapple
+2023-04-09 18:48:31,982 INFO    HandlerThread:4936 [interfaces.py:finish():173] Joined memory
+2023-04-09 18:48:31,982 INFO    HandlerThread:4936 [interfaces.py:finish():173] Joined network
+2023-04-09 18:48:32,386 DEBUG   SenderThread:4936 [sender.py:send():303] send: telemetry
+2023-04-09 18:48:32,390 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/conda-environment.yaml
+2023-04-09 18:48:32,390 DEBUG   SenderThread:4936 [sender.py:send():303] send: telemetry
+2023-04-09 18:48:32,390 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/wandb-metadata.json
+2023-04-09 18:48:32,391 DEBUG   SenderThread:4936 [sender.py:send():303] send: stats
+2023-04-09 18:48:32,855 INFO    Thread-88 :4936 [upload_job.py:push():143] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpz8nokszfwandb/36lk2vki-wandb-metadata.json
+2023-04-09 18:48:33,395 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/output.log
+2023-04-09 18:48:34,401 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/output.log
+2023-04-09 18:48:47,395 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:48:47,396 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:00,525 INFO    Thread-85 :4936 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_184821-zahp52q6/files/config.yaml
+2023-04-09 18:49:02,863 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:02,864 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:18,224 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:18,225 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:33,622 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:33,623 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:49,023 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:49,024 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:04,382 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:04,383 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:19,750 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:19,752 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:35,052 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:35,053 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:50,429 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:50,429 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:05,706 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:05,707 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:21,062 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:21,062 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:36,409 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:36,410 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:51,705 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:51,706 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:07,104 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:07,105 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:22,463 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:22,464 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:37,785 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:37,785 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:53,100 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:53,101 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:53:08,432 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:53:08,432 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:55:28,680 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:55:28,681 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 19:10:27,693 ERROR   SenderThread:4936 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x11da5e7c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da5e7c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da5e7c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 19:10:27,707 WARNING SenderThread:4936 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 19:10:28,948 WARNING FileStreamThread:4936 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=None). func: <bound method Session.post of <requests.sessions.Session object at 0x11c50f070>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:10:30,958 WARNING FileStreamThread:4936 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da617f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x11c50f070>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:10:35,221 WARNING FileStreamThread:4936 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da1e580>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x11c50f070>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:28:15,411 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 19:28:15,412 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 19:28:17,544 WARNING FileStreamThread:4936 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da5e4c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x11c50f070>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:28:18,950 ERROR   SenderThread:4936 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x11c51c280>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c51c280>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c51c280>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 19:28:18,952 WARNING SenderThread:4936 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 20:02:24,585 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 20:02:24,586 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 20:02:24,708 WARNING FileStreamThread:4936 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da5e160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x11c50f070>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 20:02:28,221 ERROR   SenderThread:4936 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x11da13910>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da13910>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da13910>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 20:02:28,222 WARNING SenderThread:4936 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 20:09:24,533 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 20:09:24,534 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 20:14:41,693 ERROR   SenderThread:4936 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x11da00610>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da00610>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11da00610>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 20:14:41,695 WARNING SenderThread:4936 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 20:30:38,004 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 20:30:38,005 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:03,569 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:14:03,569 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:18,747 DEBUG   HandlerThread:4936 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:14:18,748 DEBUG   SenderThread:4936 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:19,566 WARNING FileStreamThread:4936 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x11c50f070>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/zahp52q6/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 21:14:25,428 DEBUG   SenderThread:4936 [sender.py:send():303] send: exit
+2023-04-09 21:14:25,428 INFO    SenderThread:4936 [sender.py:send_exit():442] handling exit code: 0

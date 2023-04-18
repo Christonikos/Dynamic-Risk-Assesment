@@ -1,0 +1,64 @@
+New files found in source data files:
+['dataset4.csv', 'dataset3.csv']
+[2023-04-17 19:45:39] INFO: Reading input data from ../data/sourcedata
+[2023-04-17 19:45:39] INFO: Read 2 input files
+[2023-04-17 19:45:39] INFO: Concatenated 26 rows into output file
+[2023-04-17 19:45:39] INFO: Removed 0 duplicated rows
+[2023-04-17 19:45:39] INFO: Writing output file to ../data/ingesteddata
+[2023-04-17 19:45:39] INFO: Finished writing output file
+[2023-04-17 19:45:39] INFO: Logged ../data/ingesteddata/17_04_2023_19_45_39_finaldata.csv dataframe on WANDB in run_17_04_2023_19_45_31_full_process
+[2023-04-17 19:45:39] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-17 19:45:39] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-17 19:45:39] INFO: Data preprocessing complete
+[2023-04-17 19:45:39] INFO: Model drift detected
+[2023-04-17 19:45:39] INFO:  Running deployment_04.py...
+wandb: Currently logged in as: christonikos. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.14.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.5
+wandb: Run data is saved locally in /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230417_194540-14ew2vab
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_17_04_2023_19_45_40_model_deployment
+wandb: ⭐️ View project at https://wandb.ai/christonikos/dynamic_risk_assesment
+wandb: 🚀 View run at https://wandb.ai/christonikos/dynamic_risk_assesment/runs/14ew2vab
+[2023-04-17 19:45:42] INFO: Starting model deployment...
+[2023-04-17 19:45:42] INFO: Model and reports deployed to ../production_deployment
+wandb: Waiting for W&B process to finish... (success).
+wandb:
+wandb: Run history:
+wandb:      data_ingestion_report_ctime ▁▁▁
+wandb: data_ingestion_report_size_bytes ▁▁▁
+wandb:          deployment_time_seconds ▁
+wandb:
+wandb: Run summary:
+wandb:      data_ingestion_report_ctime 1681753539.63857
+wandb: data_ingestion_report_size_bytes 154
+wandb:             deployment_directory ../production_deploy...
+wandb:          deployment_time_seconds 0.00092
+wandb:
+wandb: Synced run_17_04_2023_19_45_40_model_deployment: https://wandb.ai/christonikos/dynamic_risk_assesment/runs/14ew2vab
+wandb: Synced 6 W&B file(s), 0 media file(s), 3 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230417_194540-14ew2vab/logs
+[2023-04-17 19:45:49] INFO:  Running diagnostics_05.py...
+wandb: Currently logged in as: christonikos. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.14.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.5
+wandb: Run data is saved locally in /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230417_194550-vgmlgj6u
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_17_04_2023_19_45_50_model_and_data_diagnostics
+wandb: ⭐️ View project at https://wandb.ai/christonikos/dynamic_risk_assesment
+wandb: 🚀 View run at https://wandb.ai/christonikos/dynamic_risk_assesment/runs/vgmlgj6u
+[2023-04-17 19:45:52] INFO: Loaded production model.
+[2023-04-17 19:45:52] INFO: Loaded test data.
+[2023-04-17 19:45:52] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-17 19:45:52] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-17 19:45:52] INFO: Data preprocessing complete
+[2023-04-17 19:45:52] INFO: Model predictions: [1, 0, 0, 1, 1]
+[2023-04-17 19:45:52] INFO: Data summary: {'lastmonth_activity': {'count': 5.0, 'mean': 76.6, 'std': 96.13948200401332, 'min': 0.0, '25%': 14.0, '50%': 34.0, '75%': 101.0, 'max': 234.0}, 'lastyear_activity': {'count': 5.0, 'mean': 3100.4, 'std': 5232.801907200386, 'min': 3.0, '25%': 333.0, '50%': 675.0, '75%': 2145.0, 'max': 12346.0}, 'number_of_employees': {'count': 5.0, 'mean': 227.2, 'std': 433.7138457554704, 'min': 2.0, '25%': 10.0, '50%': 25.0, '75%': 99.0, 'max': 1000.0}}
+[2023-04-17 19:45:52] INFO: Percentage of missing data: [0.0, 0.0, 0.0, 0.0, 0.0]
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python: can't open file '/Users/christoszacharopoulos/projects/dynamic_risk/src/training.py': [Errno 2] No such file or directory
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python: can't open file '/Users/christoszacharopoulos/projects/dynamic_risk/src/ingestion.py': [Errno 2] No such file or directory
+[2023-04-17 19:45:52] INFO: Execution Time (training.py): 0.018432708999999825
+[2023-04-17 19:45:52] INFO: Execution Time (ingestion.py): 0.01666275000000006
+[2023-04-17 19:45:57] INFO: List of outdated packages: ['attrs==22.1.0', 'black==19.10b0', 'Bottleneck==1.3.5', 'charset-normalizer==2.0.4', 'click==7.1.2', 'cryptography==39.0.1', 'cycler==0.10.0', 'debugpy==1.6.6', 'Flask==1.1.2', 'gitdb==4.0.7', 'GitPython==3.1.30', 'gunicorn==20.0.4', 'iniconfig==1.1.1', 'ipython==7.34.0', 'itsdangerous==1.1.0', 'Jinja2==2.11.3', 'joblib==1.0.1', 'jupyter-client==7.4.9', 'kiwisolver==1.3.1', 'MarkupSafe==1.1.1', 'matplotlib==3.3.4', 'mypy-extensions==0.4.3', 'numpy==1.21.5', 'packaging==23.0', 'pandas==1.4.2', 'pathspec==0.10.3', 'pip==20.3.3', 'platformdirs==3.1.1', 'protobuf==3.20.3', 'psutil==5.9.0', 'Pygments==2.14.0', 'pyOpenSSL==23.0.0', 'pyparsing==2.4.7', 'pytest==7.1.2', 'pytz==2021.1', 'regex==2022.7.9', 'requests==2.28.1', 'scikit-learn==0.24.1', 'scipy==1.6.1', 'seaborn==0.11.1', 'sentry-sdk==1.9.0', 'setproctitle==1.2.2', 'setuptools==65.6.3', 'six==1.15.0', 'smmap==4.0.0', 'spyder-kernels==2.4.0', 'threadpoolctl==2.1.0', 'typed-ast==1.4.3', 'typing-extensions==4.4.0', 'urllib3==1.26.14', 'wandb==0.13.5', 'Werkzeug==1.0.1', 'wheel==0.38.4']

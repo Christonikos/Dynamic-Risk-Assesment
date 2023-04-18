@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting_06.py", line 303, in <module>
+    main(args)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting_06.py", line 249, in main
+    model = load_production_model(args.config)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting_06.py", line 47, in load_production_model
+    raise RuntimeError(

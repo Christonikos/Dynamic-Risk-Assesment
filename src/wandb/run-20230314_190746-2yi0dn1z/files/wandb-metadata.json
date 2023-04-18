@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.6-arm64-arm-64bit",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-03-14T18:08:02.877074",
+    "startedAt": "2023-03-14T18:07:46.255604",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Christonikos/dynamic_risk.git",
+        "commit": "4080e4efc5276a658c0265ba4336a9b4abe4bcfb"
+    },
+    "email": "christonik@gmail.com",
+    "root": "/Users/christoszacharopoulos/projects/dynamic_risk",
+    "host": "Christoss-MacBook-Air-2.local",
+    "username": "christoszacharopoulos",
+    "executable": "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 153.95294952392578
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

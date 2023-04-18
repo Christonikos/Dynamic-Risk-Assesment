@@ -1,0 +1,986 @@
+2023-04-09 17:13:37,528 INFO    StreamThr :3383 [internal.py:wandb_internal():88] W&B internal server running at pid: 3383, started at: 2023-04-09 17:13:37.526999
+2023-04-09 17:13:37,530 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: status
+2023-04-09 17:13:37,531 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: status
+2023-04-09 17:13:37,532 DEBUG   SenderThread:3383 [sender.py:send():303] send: header
+2023-04-09 17:13:37,532 INFO    WriterThread:3383 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/run-205qhvz0.wandb
+2023-04-09 17:13:37,533 DEBUG   SenderThread:3383 [sender.py:send():303] send: run
+2023-04-09 17:13:38,229 INFO    SenderThread:3383 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files
+2023-04-09 17:13:38,229 INFO    SenderThread:3383 [sender.py:_start_run_threads():928] run started: 205qhvz0 with start time 1681053216.537834
+2023-04-09 17:13:38,229 DEBUG   SenderThread:3383 [sender.py:send():303] send: summary
+2023-04-09 17:13:38,229 INFO    SenderThread:3383 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-04-09 17:13:38,230 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: check_version
+2023-04-09 17:13:38,230 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: check_version
+2023-04-09 17:13:38,792 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: run_start
+2023-04-09 17:13:38,793 DEBUG   HandlerThread:3383 [system_info.py:__init__():31] System info init
+2023-04-09 17:13:38,794 DEBUG   HandlerThread:3383 [system_info.py:__init__():46] System info init done
+2023-04-09 17:13:38,794 INFO    HandlerThread:3383 [system_monitor.py:start():150] Starting system monitor
+2023-04-09 17:13:38,794 INFO    SystemMonitor:3383 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-09 17:13:38,794 INFO    HandlerThread:3383 [system_monitor.py:probe():168] Collecting system info
+2023-04-09 17:13:38,795 DEBUG   HandlerThread:3383 [system_info.py:probe():195] Probing system
+2023-04-09 17:13:38,795 INFO    SystemMonitor:3383 [interfaces.py:start():168] Started cpu
+2023-04-09 17:13:38,795 INFO    SystemMonitor:3383 [interfaces.py:start():168] Started disk
+2023-04-09 17:13:38,796 INFO    SystemMonitor:3383 [interfaces.py:start():168] Started gpuapple
+2023-04-09 17:13:38,803 INFO    SystemMonitor:3383 [interfaces.py:start():168] Started memory
+2023-04-09 17:13:38,804 DEBUG   HandlerThread:3383 [system_info.py:_probe_git():180] Probing git
+2023-04-09 17:13:38,805 INFO    SystemMonitor:3383 [interfaces.py:start():168] Started network
+2023-04-09 17:13:38,838 DEBUG   HandlerThread:3383 [system_info.py:_probe_git():188] Probing git done
+2023-04-09 17:13:38,839 DEBUG   HandlerThread:3383 [system_info.py:probe():241] Probing system done
+2023-04-09 17:13:38,839 DEBUG   HandlerThread:3383 [system_monitor.py:probe():177] {'os': 'macOS-12.6-arm64-arm-64bit', 'python': '3.9.16', 'heartbeatAt': '2023-04-09T15:13:38.795323', 'startedAt': '2023-04-09T15:13:30.802609', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics.py', 'codePath': 'src/diagnostics.py', 'git': {'remote': 'https://github.com/Christonikos/dynamic_risk.git', 'commit': '764d8a06ce1e62c3378d1d89bcb6e9a7b802923d'}, 'email': 'christonik@gmail.com', 'root': '/Users/christoszacharopoulos/projects/dynamic_risk', 'host': 'Christoss-MacBook-Air-2.local', 'username': 'christoszacharopoulos', 'executable': '/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 185.88711166381836}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-04-09 17:13:38,839 INFO    HandlerThread:3383 [system_monitor.py:probe():178] Finished collecting system info
+2023-04-09 17:13:38,839 INFO    HandlerThread:3383 [system_monitor.py:probe():181] Publishing system info
+2023-04-09 17:13:38,839 DEBUG   HandlerThread:3383 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-09 17:13:38,840 DEBUG   HandlerThread:3383 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-09 17:13:38,840 DEBUG   HandlerThread:3383 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-09 17:13:39,234 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/conda-environment.yaml
+2023-04-09 17:13:39,235 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/wandb-summary.json
+2023-04-09 17:13:39,235 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/requirements.txt
+2023-04-09 17:13:39,958 DEBUG   HandlerThread:3383 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-09 17:13:39,958 INFO    HandlerThread:3383 [system_monitor.py:probe():183] Finished publishing system info
+2023-04-09 17:13:39,959 DEBUG   SenderThread:3383 [sender.py:send():303] send: files
+2023-04-09 17:13:39,959 INFO    SenderThread:3383 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-04-09 17:13:39,965 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:13:39,965 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:13:40,235 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/conda-environment.yaml
+2023-04-09 17:13:40,235 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/wandb-metadata.json
+2023-04-09 17:13:40,929 DEBUG   SenderThread:3383 [sender.py:send():303] send: telemetry
+2023-04-09 17:13:41,237 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:13:42,315 INFO    Thread-52 :3383 [upload_job.py:push():143] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpiu57mf9iwandb/3tht51a2-wandb-metadata.json
+2023-04-09 17:13:43,247 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:13:45,483 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: partial_history
+2023-04-09 17:13:45,484 DEBUG   SenderThread:3383 [sender.py:send():303] send: history
+2023-04-09 17:13:45,484 DEBUG   SenderThread:3383 [sender.py:send():303] send: summary
+2023-04-09 17:13:45,485 INFO    SenderThread:3383 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-04-09 17:13:45,487 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:13:45,487 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:13:45,487 INFO    HandlerThread:3383 [system_monitor.py:finish():160] Stopping system monitor
+2023-04-09 17:13:45,511 DEBUG   SystemMonitor:3383 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-09 17:13:45,511 DEBUG   SystemMonitor:3383 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-09 17:13:45,511 DEBUG   SystemMonitor:3383 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-09 17:13:45,512 INFO    HandlerThread:3383 [interfaces.py:finish():173] Joined cpu
+2023-04-09 17:13:45,512 INFO    HandlerThread:3383 [interfaces.py:finish():173] Joined disk
+2023-04-09 17:13:45,512 INFO    HandlerThread:3383 [interfaces.py:finish():173] Joined gpuapple
+2023-04-09 17:13:45,512 INFO    HandlerThread:3383 [interfaces.py:finish():173] Joined memory
+2023-04-09 17:13:45,512 INFO    HandlerThread:3383 [interfaces.py:finish():173] Joined network
+2023-04-09 17:13:45,512 DEBUG   SenderThread:3383 [sender.py:send():303] send: telemetry
+2023-04-09 17:13:45,512 DEBUG   SenderThread:3383 [sender.py:send():303] send: stats
+2023-04-09 17:13:46,263 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/wandb-summary.json
+2023-04-09 17:13:47,268 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:13:55,938 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:13:55,939 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:14:09,366 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/config.yaml
+2023-04-09 17:14:11,309 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:14:11,309 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:14:26,665 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:14:26,665 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:14:41,982 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:14:41,983 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:14:57,381 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:14:57,396 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:15:12,729 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:15:12,729 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:15:28,104 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:15:28,105 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:15:43,465 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:15:43,466 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:15:58,867 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:15:58,868 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:16:14,181 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:16:14,182 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:16:29,579 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:16:29,580 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:16:44,932 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:16:44,933 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:17:00,230 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:17:00,231 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:17:15,553 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:17:15,553 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:17:30,903 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:17:30,903 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:17:46,264 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:17:46,265 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:18:01,614 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:18:01,615 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:18:16,891 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:18:16,891 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:18:32,617 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:18:32,617 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:18:48,016 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:18:48,016 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:19:03,374 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:19:03,375 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:19:18,735 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:19:18,736 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:19:34,095 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:19:34,096 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:19:49,498 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:19:49,499 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:20:04,937 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:20:04,938 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:20:20,258 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:20:20,259 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:20:35,612 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:20:35,613 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:20:50,912 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:20:50,912 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:21:06,260 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:21:06,260 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:21:21,575 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:21:21,575 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:21:36,871 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:21:36,871 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:21:52,338 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:21:52,339 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:22:07,708 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:22:07,709 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:22:23,057 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:22:23,057 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:22:38,383 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:22:38,384 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:22:53,741 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:22:53,742 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:23:09,100 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:23:09,101 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:23:24,409 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:23:24,410 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:23:39,694 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:23:39,696 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:23:54,983 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:23:54,984 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:24:10,266 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:24:10,267 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:24:25,582 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:24:25,582 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:24:40,936 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:24:40,937 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:24:56,297 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:24:56,298 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:25:11,658 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:25:11,660 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:25:27,016 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:25:27,017 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:25:42,304 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:25:42,304 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:25:58,987 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:25:58,988 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:26:14,297 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:26:14,298 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:26:29,610 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:26:29,611 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:26:44,947 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:26:44,948 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:27:00,296 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:27:00,297 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:27:15,653 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:27:15,653 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:27:31,024 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:27:31,025 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:27:45,877 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:27:45,877 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:27:46,629 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:27:46,629 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:27:46,852 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:27:46,852 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:28:02,020 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:28:02,020 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:28:10,407 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:28:10,407 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:28:10,409 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:28:10,409 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:28:17,425 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:28:17,426 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:28:32,739 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:28:32,740 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:28:48,102 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:28:48,102 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:29:03,462 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:29:03,463 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:29:10,819 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:29:10,819 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:29:10,822 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:29:10,822 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:29:18,903 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:29:18,903 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:29:34,378 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:29:34,379 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:29:49,705 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:29:49,705 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:30:05,142 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:30:05,143 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:30:20,491 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:30:20,492 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:30:35,905 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:30:35,906 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:30:52,345 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:30:52,346 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:31:07,691 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:31:07,692 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:31:11,056 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:31:11,056 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:31:11,059 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:31:11,059 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:31:13,691 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:31:13,691 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:31:13,700 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:31:13,701 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:31:18,533 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:31:18,533 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:31:18,535 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:31:18,535 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:31:21,235 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:31:21,235 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:31:21,237 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:31:21,237 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:31:23,072 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:31:23,073 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:31:23,395 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:31:23,395 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:31:23,404 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:31:23,405 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:31:38,411 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:31:38,412 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:31:53,683 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:31:53,684 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:32:08,963 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:32:08,963 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:32:13,236 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:32:13,236 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:32:13,238 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:32:13,238 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:32:16,939 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:32:16,939 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:32:16,941 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:32:16,941 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:32:19,193 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:32:19,193 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:32:19,196 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:32:19,196 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:32:24,240 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:32:24,240 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:32:39,636 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:32:39,637 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:32:54,955 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:32:54,956 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:33:10,357 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:33:10,358 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:33:25,686 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:33:25,687 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:33:41,040 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:33:41,040 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:33:56,433 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:33:56,434 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:34:11,735 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:34:11,736 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:34:27,122 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:34:27,123 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:34:42,444 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:34:42,445 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:34:57,833 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:34:57,834 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:35:13,183 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:35:13,184 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:35:28,474 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:35:28,475 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:35:43,832 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:35:43,833 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:35:59,314 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:35:59,315 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:36:14,705 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:36:14,705 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:36:30,190 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:36:30,190 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:36:45,518 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:36:45,518 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:37:00,877 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:37:00,878 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:37:08,213 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:37:08,213 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:37:08,216 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:37:08,216 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:37:16,366 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:37:16,367 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:37:31,764 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:37:31,764 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:37:47,136 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:37:47,137 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:38:02,561 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:38:02,562 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:38:17,874 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:38:17,875 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:38:33,237 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:38:33,238 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:38:49,074 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:38:49,075 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:39:04,400 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:39:04,401 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:39:19,724 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:39:19,724 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:39:35,098 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:39:35,099 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:39:50,419 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:39:50,420 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:40:04,144 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:40:04,144 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:40:04,146 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:40:04,146 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:40:05,738 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:40:05,738 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:40:21,156 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:40:21,157 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:40:36,737 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:40:36,738 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:40:52,099 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:40:52,099 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:41:07,507 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:41:07,507 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:41:22,782 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:41:22,782 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:41:31,817 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:41:31,818 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:41:31,819 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:41:31,819 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:41:38,141 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:41:38,142 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:41:41,199 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:41:41,199 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:41:41,200 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:41:41,201 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:41:46,284 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:41:46,284 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:41:46,293 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:41:46,293 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:41:53,542 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:41:53,542 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:41:58,992 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:41:58,992 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:41:59,001 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:41:59,001 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:42:08,818 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:42:08,819 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:42:24,102 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:42:24,102 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:42:39,424 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:42:39,424 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:42:41,085 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:42:41,085 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:42:41,092 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:42:41,092 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:42:42,108 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:42:43,889 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:42:43,889 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:42:43,897 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:42:43,897 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:42:52,411 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:42:52,411 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:42:52,453 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:42:52,453 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:42:54,777 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:42:54,778 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:43:10,181 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:43:10,181 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:43:23,410 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:43:23,410 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:43:23,419 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:43:23,419 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:43:24,293 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:43:25,618 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:43:25,619 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:43:25,818 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:43:25,819 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:43:25,823 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:43:25,823 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:43:31,434 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:43:31,434 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:43:31,437 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:43:31,437 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:43:40,477 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:43:40,477 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:43:40,557 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:43:40,558 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:43:40,986 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:43:40,987 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:43:42,363 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:43:56,579 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:43:56,579 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:44:11,920 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:44:11,920 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:44:27,701 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:44:27,701 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:44:43,105 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:44:43,106 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:44:58,462 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:44:58,462 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:45:13,798 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:45:13,799 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:45:19,520 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:45:19,520 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:45:19,523 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:45:19,523 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:45:29,220 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:45:29,221 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:45:44,664 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:45:44,665 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:46:00,142 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:46:00,142 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:46:15,498 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:46:15,498 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:46:30,899 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:46:30,900 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:46:46,235 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:46:46,235 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:47:01,593 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:47:01,594 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:47:17,399 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:47:17,400 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:47:32,857 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:47:32,857 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:47:48,380 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:47:48,380 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:48:03,962 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:48:03,963 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:48:19,323 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:48:19,324 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:48:34,656 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:48:34,657 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:48:50,596 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:48:50,597 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:49:05,973 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:49:05,973 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:49:21,355 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:49:21,356 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:49:36,702 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:49:36,702 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:49:52,290 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:49:52,290 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:50:07,625 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:50:07,625 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:50:08,476 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: resume
+2023-04-09 17:50:08,476 INFO    HandlerThread:3383 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-04-09 17:50:11,075 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:13,082 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:15,091 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:17,098 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:19,106 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:20,818 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: pause
+2023-04-09 17:50:20,818 INFO    HandlerThread:3383 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-04-09 17:50:21,117 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:22,900 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:50:22,901 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:50:23,122 INFO    Thread-49 :3383 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230409_171330-205qhvz0/files/output.log
+2023-04-09 17:50:38,318 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:50:38,320 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:50:53,822 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:50:53,823 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:51:09,140 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:51:09,141 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:51:24,419 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:51:24,419 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:51:39,746 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:51:39,747 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:51:55,061 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:51:55,062 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:52:10,343 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:52:10,347 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:52:25,628 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:52:25,630 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:52:40,944 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:52:40,945 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:52:56,426 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:52:56,427 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:53:11,922 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:53:11,923 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:53:27,303 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:53:27,303 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:53:42,624 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:53:42,624 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:53:57,909 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:53:57,909 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:54:13,168 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:54:13,170 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:54:28,582 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:54:28,583 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:54:43,864 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:54:43,865 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:54:59,177 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:54:59,178 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:55:14,543 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:55:14,543 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:55:29,884 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:55:29,885 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:55:45,242 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:55:45,243 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:56:00,579 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:56:00,579 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:56:15,861 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:56:15,862 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:56:31,251 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:56:31,251 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:56:46,634 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:56:46,636 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:57:01,933 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:57:01,933 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:57:17,228 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:57:17,229 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:57:32,556 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:57:32,556 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:57:48,025 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:57:48,026 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:58:03,604 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:58:03,604 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:58:18,992 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:58:18,993 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:58:34,349 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:58:34,349 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:58:49,676 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:58:49,676 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:59:05,031 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:59:05,031 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:59:20,350 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:59:20,351 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:59:35,712 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:59:35,713 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 17:59:51,118 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 17:59:51,119 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:00:06,474 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:00:06,474 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:00:21,799 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:00:21,799 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:00:37,117 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:00:37,118 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:00:52,432 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:00:52,433 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:01:07,821 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:01:07,822 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:01:23,613 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:01:23,613 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:01:39,114 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:01:39,115 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:01:54,718 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:01:54,719 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:02:10,019 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:02:10,019 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:02:25,374 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:02:25,375 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:02:40,738 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:02:40,739 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:02:56,216 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:02:56,217 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:03:11,536 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:03:11,537 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:03:26,808 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:03:26,809 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:03:42,099 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:03:42,100 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:03:57,443 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:03:57,444 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:04:12,792 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:04:12,793 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:04:28,298 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:04:28,298 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:04:43,609 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:04:43,610 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:04:58,932 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:04:58,933 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:05:14,398 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:05:14,398 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:05:29,804 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:05:29,805 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:05:45,195 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:05:45,196 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:06:00,505 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:06:00,506 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:06:15,844 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:06:15,845 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:38:00,270 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 18:38:01,976 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:38:01,977 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:38:17,311 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:38:17,312 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:38:32,922 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:38:32,924 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:38:48,210 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:38:48,211 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:39:04,122 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:39:04,124 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:39:20,981 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:39:20,983 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:39:36,316 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:39:36,317 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:39:51,638 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:39:51,639 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:40:06,941 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:40:06,942 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:40:22,226 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:40:22,227 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:40:37,580 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:40:37,581 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:40:52,900 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:40:52,900 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:41:08,220 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:41:08,220 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:41:23,530 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:41:23,530 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:41:38,858 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:41:38,859 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:41:54,224 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:41:54,225 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:42:09,588 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:42:09,588 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:42:24,887 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:42:24,887 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:42:37,458 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 18:42:40,176 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:42:40,176 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:42:55,459 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:42:55,460 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:43:10,882 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:43:10,883 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:43:26,180 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:43:26,181 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:43:41,462 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:43:41,463 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:43:56,860 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:43:56,861 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:44:12,232 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:44:12,233 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:44:27,553 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:44:27,554 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:44:42,861 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:44:42,862 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:44:58,435 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:44:58,436 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:45:13,902 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:45:13,902 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:45:29,271 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:45:29,272 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:45:44,831 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:45:44,832 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:46:00,137 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:46:00,138 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:46:15,423 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:46:15,423 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:46:30,739 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:46:30,740 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:46:46,110 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:46:46,111 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:47:01,420 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:47:01,420 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:47:16,700 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:47:16,700 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:47:32,021 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:47:32,021 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:47:47,303 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:47:47,304 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:48:02,576 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:48:02,576 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:48:17,856 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:48:17,857 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:48:33,256 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:48:33,257 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:48:48,585 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:48:48,585 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:03,984 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:03,985 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:19,322 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:19,323 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:34,638 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:34,639 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:49:49,942 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:49:49,943 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:05,228 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:05,229 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:20,545 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:20,546 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:35,823 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:35,824 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:50:51,182 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:50:51,183 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:06,465 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:06,466 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:21,777 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:21,778 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:37,065 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:37,066 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:51:52,392 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:51:52,393 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:07,693 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:07,694 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:22,986 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:22,986 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:38,349 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:38,349 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:52:53,662 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:52:53,663 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:53:08,989 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:53:08,990 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 18:55:29,073 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 18:55:29,074 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 19:10:28,293 ERROR   SenderThread:3383 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x1262bfd30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262bfd30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262bfd30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 19:10:28,301 WARNING SenderThread:3383 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 19:10:30,118 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=None). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:10:32,345 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x126284280>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:10:36,650 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x126284670>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:28:16,003 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 19:28:16,004 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 19:28:19,257 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262842b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 19:28:19,481 ERROR   SenderThread:3383 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x126059490>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x126059490>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x126059490>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 19:28:19,483 WARNING SenderThread:3383 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 20:02:25,116 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 20:02:25,117 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 20:02:28,275 ERROR   SenderThread:3383 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x1262b6100>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262b6100>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262b6100>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 20:02:28,277 WARNING SenderThread:3383 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 20:02:28,663 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1260592b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 20:09:24,581 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 20:09:24,581 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 20:14:41,945 ERROR   SenderThread:3383 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x1262b6ee0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262b6ee0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1262b6ee0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-09 20:14:41,948 WARNING SenderThread:3383 [sender.py:send_request_stop_status():383] Failed to check stop requested status: [Errno 32] Broken pipe
+2023-04-09 20:30:38,253 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 20:30:38,258 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:03,774 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:14:03,775 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:18,949 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:14:18,950 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:22,418 WARNING FileStreamThread:3383 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x1260df580>>, args: ('https://api.wandb.ai/files/christonikos/dynamic_risk_assesment/205qhvz0/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-04-09 21:14:34,130 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:14:34,131 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:14:49,309 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:14:49,309 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:15:04,477 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:15:04,478 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 21:15:19,665 DEBUG   HandlerThread:3383 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 21:15:19,666 DEBUG   SenderThread:3383 [sender.py:send_request():317] send_request: stop_status

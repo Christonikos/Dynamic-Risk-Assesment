@@ -1,0 +1,15 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5 entries, 0 to 4
+Data columns (total 8 columns):
+ #   Column               Non-Null Count  Dtype
+---  ------               --------------  -----
+ 0   edcv                 5 non-null      float64
+ 1   okjh                 5 non-null      float64
+ 2   sdfv                 5 non-null      float64
+ 3   uhgr                 5 non-null      float64
+ 4   werf                 5 non-null      float64
+ 5   lastmonth_activity   5 non-null      float64
+ 6   lastyear_activity    5 non-null      float64
+ 7   number_of_employees  5 non-null      float64
+dtypes: float64(8)
+memory usage: 448.0 bytes

@@ -1,0 +1,4 @@
+[2023-04-03 19:05:35] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-03 19:05:35] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-03 19:05:35] INFO: Data preprocessing complete
+[4mReloaded modules[24m: utils

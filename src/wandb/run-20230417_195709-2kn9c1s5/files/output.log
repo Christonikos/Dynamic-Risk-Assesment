@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting_06.py", line 304, in <module>
+    main(args)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting_06.py", line 248, in main
+    data = load_data(args.config)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/reporting_06.py", line 72, in load_data
+    raise RuntimeError(

@@ -1,0 +1,1 @@
+*/10 * * * * cd /Users/christoszacharopoulos/projects/dynamic_risk/src && python3 fullprocess.py

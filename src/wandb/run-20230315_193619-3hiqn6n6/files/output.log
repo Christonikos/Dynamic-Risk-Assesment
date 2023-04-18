@@ -1,0 +1,6 @@
+[2023-03-15 19:36:24] INFO:
+                      Loaded artifact: deduped_dataframe:v0 to train the ML model.
+                      The description of the artifact is: The merged dataframe after duplicated values have been removed.
+[2023-03-15 19:36:24] INFO: One-hot encoding applied to 'corporation' column
+[2023-03-15 19:36:24] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-03-15 19:36:24] INFO: Data preprocessing complete

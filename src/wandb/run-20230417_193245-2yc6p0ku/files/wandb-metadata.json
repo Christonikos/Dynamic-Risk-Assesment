@@ -1,0 +1,34 @@
+{
+    "os": "macOS-12.6-arm64-arm-64bit",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-17T17:32:46.667235",
+    "startedAt": "2023-04-17T17:32:45.980327",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py",
+    "codePath": "src/diagnostics_05.py",
+    "git": {
+        "remote": "https://github.com/Christonikos/dynamic_risk.git",
+        "commit": "764d8a06ce1e62c3378d1d89bcb6e9a7b802923d"
+    },
+    "email": "christonik@gmail.com",
+    "root": "/Users/christoszacharopoulos/projects/dynamic_risk",
+    "host": "Christoss-MacBook-Air-2.local",
+    "username": "christoszacharopoulos",
+    "executable": "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 189.08112335205078
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

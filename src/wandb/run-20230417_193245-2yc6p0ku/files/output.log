@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 245, in <module>
+    main(args)
+  File "/Users/christoszacharopoulos/projects/dynamic_risk/src/diagnostics_05.py", line 174, in main
+    model = load_production_model(args.config)

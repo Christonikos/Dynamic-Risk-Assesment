@@ -1,0 +1,10 @@
+[2023-04-17 20:09:19] INFO: Loaded production model.
+[2023-04-17 20:09:19] INFO: Loaded test data.
+[2023-04-17 20:09:19] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-17 20:09:19] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-17 20:09:19] INFO: Data preprocessing complete
+[2023-04-17 20:09:19] INFO: Model predictions: [1, 0, 0, 1, 1]
+[2023-04-17 20:09:19] INFO: Data summary: {'lastmonth_activity': {'count': 5.0, 'mean': 76.6, 'std': 96.13948200401332, 'min': 0.0, '25%': 14.0, '50%': 34.0, '75%': 101.0, 'max': 234.0}, 'lastyear_activity': {'count': 5.0, 'mean': 3100.4, 'std': 5232.801907200386, 'min': 3.0, '25%': 333.0, '50%': 675.0, '75%': 2145.0, 'max': 12346.0}, 'number_of_employees': {'count': 5.0, 'mean': 227.2, 'std': 433.7138457554704, 'min': 2.0, '25%': 10.0, '50%': 25.0, '75%': 99.0, 'max': 1000.0}}
+[2023-04-17 20:09:19] INFO: Percentage of missing data: [0.0, 0.0, 0.0, 0.0, 0.0]
+[2023-04-17 20:09:19] INFO: Execution Time (training.py): 0.022636540999999788
+[2023-04-17 20:09:19] INFO: Execution Time (ingestion.py): 0.021493957999999758

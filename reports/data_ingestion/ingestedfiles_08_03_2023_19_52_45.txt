@@ -1,0 +1,6 @@
+Ingestion date: 08_03_2023_19_52_45
+dataset1.csv 
+Dataframe shape: (17, 5) 
+dataset2.csv 
+Dataframe shape: (19, 5) 
+Number of duplicated rows removed: 10 

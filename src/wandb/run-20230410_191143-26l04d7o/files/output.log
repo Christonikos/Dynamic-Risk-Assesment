@@ -1,0 +1,22 @@
+[2023-04-10 19:11:45] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-10 19:11:45] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-10 19:11:45] INFO: Data preprocessing complete
+../images/confusionmatrix.png
+../images/confusionmatrix.png
+[2023-04-10 19:11:57] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-10 19:11:57] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-10 19:11:57] INFO: Data preprocessing complete
+/Users/christoszacharopoulos/projects/dynamic_risk
+[36m[1m__pycache__[39m[22m/           [36m[1mpracticemodels[39m[22m/        requirements.yml
+config.json            [36m[1mproduction_deployment[39m[22m/ [36m[1msrc[39m[22m/
+[36m[1mdata[39m[22m/                  [36m[1mreports[39m[22m/
+[36m[1mimages[39m[22m/                requirements.txt
+/Users/christoszacharopoulos/projects/dynamic_risk/reports
+[36m[1mdata_ingestion[39m[22m/ [36m[1mpdf_reports[39m[22m/    [36m[1mscoring[39m[22m/
+/Users/christoszacharopoulos/projects/dynamic_risk/src
+[36m[1m__pycache__[39m[22m/       diagnostics_05.py  scoring_03.py      [36m[1mwandb[39m[22m/
+apicalls.py        fullprocess.py     tests.py           wsgi.py
+app.py             ingestion_01.py    training_02.py
+deployment_04.py   reporting.py       utils.py
+../reports/data_injestion
+[4mReloaded modules[24m: utils

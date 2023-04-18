@@ -1,0 +1,13 @@
+New files found in source data files:
+['dataset4.csv', 'dataset3.csv']
+[2023-04-17 19:01:49] INFO: Reading input data from ../data/sourcedata
+[2023-04-17 19:01:49] INFO: Read 2 input files
+[2023-04-17 19:01:49] INFO: Concatenated 26 rows into output file
+[2023-04-17 19:01:49] INFO: Removed 0 duplicated rows
+[2023-04-17 19:01:49] INFO: Writing output file to ../data/ingesteddata
+[2023-04-17 19:01:49] INFO: Finished writing output file
+[2023-04-17 19:01:50] INFO: Logged ../data/ingesteddata/17_04_2023_19_01_49_finaldata.csv dataframe on WANDB in run_17_04_2023_18_51_56_full_process
+[2023-04-17 19:01:53] INFO: One-hot encoding applied to 'corporation' column
+[2023-04-17 19:01:53] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-04-17 19:01:53] INFO: Data preprocessing complete
+[4mReloaded modules[24m: utils, ingestion_01

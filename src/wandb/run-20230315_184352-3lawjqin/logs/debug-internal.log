@@ -1,0 +1,925 @@
+2023-03-15 18:43:52,244 INFO    StreamThr :55877 [internal.py:wandb_internal():88] W&B internal server running at pid: 55877, started at: 2023-03-15 18:43:52.240462
+2023-03-15 18:43:52,247 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: status
+2023-03-15 18:43:52,249 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: status
+2023-03-15 18:43:52,251 DEBUG   SenderThread:55877 [sender.py:send():303] send: header
+2023-03-15 18:43:52,252 INFO    WriterThread:55877 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/run-3lawjqin.wandb
+2023-03-15 18:43:52,271 DEBUG   SenderThread:55877 [sender.py:send():303] send: run
+2023-03-15 18:43:52,984 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: check_version
+2023-03-15 18:43:52,990 INFO    SenderThread:55877 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files
+2023-03-15 18:43:52,990 INFO    SenderThread:55877 [sender.py:_start_run_threads():928] run started: 3lawjqin with start time 1678902232.224624
+2023-03-15 18:43:52,990 DEBUG   SenderThread:55877 [sender.py:send():303] send: summary
+2023-03-15 18:43:52,990 INFO    SenderThread:55877 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-15 18:43:52,990 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: check_version
+2023-03-15 18:43:53,578 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: run_start
+2023-03-15 18:43:53,587 DEBUG   HandlerThread:55877 [system_info.py:__init__():31] System info init
+2023-03-15 18:43:53,588 DEBUG   HandlerThread:55877 [system_info.py:__init__():46] System info init done
+2023-03-15 18:43:53,588 INFO    HandlerThread:55877 [system_monitor.py:start():150] Starting system monitor
+2023-03-15 18:43:53,588 INFO    SystemMonitor:55877 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-15 18:43:53,588 INFO    HandlerThread:55877 [system_monitor.py:probe():168] Collecting system info
+2023-03-15 18:43:53,589 DEBUG   HandlerThread:55877 [system_info.py:probe():195] Probing system
+2023-03-15 18:43:53,589 INFO    SystemMonitor:55877 [interfaces.py:start():168] Started cpu
+2023-03-15 18:43:53,589 INFO    SystemMonitor:55877 [interfaces.py:start():168] Started disk
+2023-03-15 18:43:53,591 INFO    SystemMonitor:55877 [interfaces.py:start():168] Started gpuapple
+2023-03-15 18:43:53,596 INFO    SystemMonitor:55877 [interfaces.py:start():168] Started memory
+2023-03-15 18:43:53,596 INFO    SystemMonitor:55877 [interfaces.py:start():168] Started network
+2023-03-15 18:43:53,603 DEBUG   HandlerThread:55877 [system_info.py:_probe_git():180] Probing git
+2023-03-15 18:43:53,632 DEBUG   HandlerThread:55877 [system_info.py:_probe_git():188] Probing git done
+2023-03-15 18:43:53,632 DEBUG   HandlerThread:55877 [system_info.py:probe():241] Probing system done
+2023-03-15 18:43:53,632 DEBUG   HandlerThread:55877 [system_monitor.py:probe():177] {'os': 'macOS-12.6-arm64-arm-64bit', 'python': '3.9.16', 'heartbeatAt': '2023-03-15T17:43:53.589308', 'startedAt': '2023-03-15T17:43:52.211726', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/Christonikos/dynamic_risk.git', 'commit': '764d8a06ce1e62c3378d1d89bcb6e9a7b802923d'}, 'email': 'christonik@gmail.com', 'root': '/Users/christoszacharopoulos/projects/dynamic_risk', 'host': 'Christoss-MacBook-Air-2.local', 'username': 'christoszacharopoulos', 'executable': '/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 152.3612174987793}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-03-15 18:43:53,632 INFO    HandlerThread:55877 [system_monitor.py:probe():178] Finished collecting system info
+2023-03-15 18:43:53,632 INFO    HandlerThread:55877 [system_monitor.py:probe():181] Publishing system info
+2023-03-15 18:43:53,632 DEBUG   HandlerThread:55877 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-15 18:43:53,633 DEBUG   HandlerThread:55877 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-15 18:43:53,633 DEBUG   HandlerThread:55877 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-15 18:43:53,996 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/conda-environment.yaml
+2023-03-15 18:43:53,997 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/requirements.txt
+2023-03-15 18:43:53,997 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/wandb-summary.json
+2023-03-15 18:43:54,933 DEBUG   HandlerThread:55877 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-15 18:43:54,934 INFO    HandlerThread:55877 [system_monitor.py:probe():183] Finished publishing system info
+2023-03-15 18:43:54,936 DEBUG   SenderThread:55877 [sender.py:send():303] send: files
+2023-03-15 18:43:54,936 INFO    SenderThread:55877 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-03-15 18:43:54,942 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:43:54,942 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:43:54,945 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:43:54,945 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:43:54,945 INFO    HandlerThread:55877 [system_monitor.py:finish():160] Stopping system monitor
+2023-03-15 18:43:54,966 DEBUG   SystemMonitor:55877 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-15 18:43:54,967 DEBUG   SystemMonitor:55877 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-15 18:43:54,967 DEBUG   SystemMonitor:55877 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-15 18:43:54,967 INFO    HandlerThread:55877 [interfaces.py:finish():173] Joined cpu
+2023-03-15 18:43:54,968 INFO    HandlerThread:55877 [interfaces.py:finish():173] Joined disk
+2023-03-15 18:43:54,968 INFO    HandlerThread:55877 [interfaces.py:finish():173] Joined gpuapple
+2023-03-15 18:43:54,968 INFO    HandlerThread:55877 [interfaces.py:finish():173] Joined memory
+2023-03-15 18:43:54,968 INFO    HandlerThread:55877 [interfaces.py:finish():173] Joined network
+2023-03-15 18:43:55,001 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/conda-environment.yaml
+2023-03-15 18:43:55,001 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/wandb-metadata.json
+2023-03-15 18:43:55,238 DEBUG   SenderThread:55877 [sender.py:send():303] send: telemetry
+2023-03-15 18:43:55,239 DEBUG   SenderThread:55877 [sender.py:send():303] send: telemetry
+2023-03-15 18:43:55,239 DEBUG   SenderThread:55877 [sender.py:send():303] send: stats
+2023-03-15 18:43:55,999 INFO    Thread-16 :55877 [upload_job.py:push():143] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpmsygfto0wandb/39q4hoat-wandb-metadata.json
+2023-03-15 18:44:01,712 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:44:01,712 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:44:03,477 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:44:03,478 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:44:04,040 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/output.log
+2023-03-15 18:44:06,052 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/output.log
+2023-03-15 18:44:10,246 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:44:10,247 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:44:23,127 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/config.yaml
+2023-03-15 18:44:25,247 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:44:25,247 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:44:25,258 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:44:25,258 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:44:25,591 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:44:25,591 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:44:28,151 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/output.log
+2023-03-15 18:44:37,913 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:44:37,913 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:44:37,955 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:44:37,955 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:44:40,921 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:44:40,921 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:44:48,631 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:44:48,631 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:44:48,657 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:44:48,658 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:44:56,250 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:44:56,251 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:44:59,850 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:44:59,850 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:44:59,852 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:44:59,852 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:45:04,962 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:45:04,963 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:45:04,965 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:45:04,965 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:45:11,575 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:45:11,575 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:45:25,053 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:45:25,053 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:45:25,055 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:45:25,055 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:45:26,810 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:45:26,810 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:45:26,813 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:45:26,813 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:45:26,894 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:45:26,894 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:45:42,223 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:45:42,224 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:45:57,547 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:45:57,547 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:46:12,862 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:46:12,863 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:46:16,818 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:46:16,818 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:46:16,821 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:46:16,821 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:46:28,212 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:46:28,212 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:46:43,559 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:46:43,562 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:46:58,896 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:46:58,898 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:47:14,255 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:47:14,256 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:47:29,607 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:47:29,607 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:47:44,957 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:47:44,958 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:48:00,321 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:48:00,323 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:48:15,653 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:48:15,654 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:48:30,984 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:48:30,984 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:48:46,316 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:48:46,317 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:49:01,659 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:49:01,659 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:49:16,987 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:49:16,988 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:49:32,326 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:49:32,326 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:49:47,671 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:49:47,672 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:50:03,008 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:50:03,009 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:50:18,345 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:50:18,345 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:50:33,700 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:50:33,700 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:50:49,040 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:50:49,041 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:51:04,365 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:51:04,365 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:51:19,700 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:51:19,701 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:51:35,047 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:51:35,047 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:51:50,010 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:51:50,010 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:51:50,014 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:51:50,014 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:51:50,380 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:51:50,381 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:52:05,720 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:52:05,721 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:52:18,266 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:52:18,266 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:52:18,267 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:52:18,267 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:52:20,873 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:52:20,873 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:52:20,875 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:52:20,875 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:52:21,090 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:52:21,091 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:52:36,429 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:52:36,430 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:52:51,770 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:52:51,771 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:53:07,102 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:53:07,102 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:53:20,372 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:53:20,372 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:53:20,376 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:53:20,376 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:53:22,415 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:53:22,415 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:53:37,739 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:53:37,740 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:53:53,092 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:53:53,092 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:54:08,435 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:54:08,435 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:54:23,781 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:54:23,781 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:54:39,140 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:54:39,141 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:54:54,476 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:54:54,477 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:55:09,815 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:55:09,816 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:55:25,138 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:55:25,138 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:55:40,477 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:55:40,477 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:55:55,811 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:55:55,812 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:56:11,143 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:56:11,144 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:56:26,481 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:56:26,482 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:56:39,746 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:56:39,746 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:56:39,747 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:56:39,747 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:56:41,817 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:56:41,818 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:56:57,156 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:56:57,156 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:56:57,344 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:56:57,344 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:56:57,360 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:56:57,360 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:57:00,025 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:57:00,025 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:57:00,027 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:57:00,027 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:57:12,468 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:57:12,469 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:57:27,818 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:57:27,818 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:57:43,144 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:57:43,144 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:57:47,067 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:57:47,068 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:57:47,091 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:57:47,091 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:57:50,505 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:57:50,505 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:57:50,511 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:57:50,511 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:57:58,459 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:57:58,459 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:58:13,795 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:58:13,795 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:58:17,722 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:58:17,722 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:58:17,724 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:58:17,724 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:58:19,884 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:58:19,884 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:58:19,887 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:58:19,887 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:58:26,283 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:58:26,283 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:58:26,306 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:58:26,306 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:58:29,119 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:58:29,119 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:58:44,441 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:58:44,442 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:58:49,136 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:58:49,136 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:58:49,139 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:58:49,139 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:58:58,287 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:58:58,287 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:58:58,292 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:58:58,292 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:58:59,776 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:58:59,776 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:59:08,426 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:59:08,427 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:59:08,433 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:59:08,433 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:59:15,119 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:59:15,119 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:59:30,442 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:59:30,443 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:59:31,166 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:59:31,166 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:59:31,168 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:59:31,168 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:59:45,786 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 18:59:45,786 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 18:59:46,042 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:59:46,042 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:59:46,044 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:59:46,044 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:59:47,893 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:59:47,894 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:59:47,898 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:59:47,898 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:59:55,280 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:59:55,280 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:59:55,281 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:59:55,281 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 18:59:57,669 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 18:59:57,669 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 18:59:57,672 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 18:59:57,672 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:01,654 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:00:01,655 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:00:02,566 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:02,566 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:02,567 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:02,567 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:04,071 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:04,071 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:04,074 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:04,074 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:07,146 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:07,147 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:07,148 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:07,148 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:09,672 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:09,672 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:09,675 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:09,675 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:15,298 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:15,298 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:15,299 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:15,299 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:17,002 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:00:17,003 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:00:21,261 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:21,261 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:21,263 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:21,263 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:22,783 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:22,783 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:22,785 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:22,785 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:26,266 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:26,266 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:26,268 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:26,268 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:32,353 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:00:32,354 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:00:39,127 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:39,127 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:39,130 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:39,130 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:42,680 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:42,680 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:42,683 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:42,683 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:47,693 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:00:47,693 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:00:49,819 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:49,819 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:49,822 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:49,822 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:00:56,781 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:00:56,781 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:00:56,784 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:00:56,784 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:01:03,023 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:01:03,024 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:01:04,289 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:01:04,290 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:01:04,296 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:01:04,296 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:01:17,397 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:01:17,397 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:01:17,400 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:01:17,400 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:01:18,356 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:01:18,357 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:01:33,703 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:01:33,704 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:01:48,784 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:01:48,785 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:01:48,789 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:01:48,789 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:01:49,345 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:01:49,345 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:01:56,560 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:01:56,560 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:01:56,562 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:01:56,562 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:04,682 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:02:04,683 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:02:06,590 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:06,591 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:06,592 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:06,592 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:08,540 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:08,540 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:08,543 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:08,543 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:12,430 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:12,430 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:12,433 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:12,433 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:18,151 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:18,151 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:18,153 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:18,153 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:20,021 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:02:20,021 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:02:32,117 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:32,117 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:32,120 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:32,120 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:35,351 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:02:35,351 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:02:38,039 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:38,039 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:38,042 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:38,042 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:02:50,684 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:02:50,685 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:02:59,920 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:02:59,920 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:02:59,923 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:02:59,923 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:03:06,030 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:03:06,030 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:03:08,548 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:03:08,548 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:03:08,551 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:03:08,551 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:03:21,368 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:03:21,368 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:03:25,193 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:03:25,193 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:03:25,194 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:03:25,195 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:03:36,689 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:03:36,689 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:03:40,445 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:03:40,445 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:03:40,447 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:03:40,447 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:03:43,050 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:03:43,050 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:03:43,053 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:03:43,053 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:03:52,029 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:03:52,030 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:03:56,131 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:03:56,131 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:03:56,132 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:03:56,133 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:03:58,794 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:03:58,794 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:03:58,796 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:03:58,796 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:02,638 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:02,638 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:02,640 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:02,640 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:05,118 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:05,118 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:05,122 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:05,122 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:07,363 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:04:07,364 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:04:13,291 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:13,291 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:13,293 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:13,293 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:16,160 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:16,160 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:16,166 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:16,166 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:19,724 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:19,724 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:19,726 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:19,726 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:22,392 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:22,392 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:22,394 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:22,394 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:22,715 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:04:22,716 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:04:24,276 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:04:24,276 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:04:24,280 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:04:24,280 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:04:38,042 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:04:38,043 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:04:53,376 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:04:53,376 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:05:08,721 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:05:08,722 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:05:24,061 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:05:24,061 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:05:34,894 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:05:34,895 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:05:34,897 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:05:34,897 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:05:39,455 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:05:39,456 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:05:54,798 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:05:54,798 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:05:54,844 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:05:54,844 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:05:54,848 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:05:54,848 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:06:10,219 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:06:10,220 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:06:25,558 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:06:25,559 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:06:40,897 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:06:40,898 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:06:56,246 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:06:56,247 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:07:11,595 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:07:11,597 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:07:26,955 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:07:26,956 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:07:42,298 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:07:42,312 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:07:57,652 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:07:57,653 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:08:12,966 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:08:12,967 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:08:28,322 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:08:28,322 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:08:43,666 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:08:43,668 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:08:59,000 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:08:59,000 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:09:14,345 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:09:14,345 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:09:17,169 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:09:17,169 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:09:17,171 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:09:17,172 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:09:29,676 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:09:29,677 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:09:44,990 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:09:44,992 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:10:00,325 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:10:00,326 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:10:15,654 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:10:15,656 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:10:17,067 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:10:17,067 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:10:17,069 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:10:17,070 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:10:30,987 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:10:30,987 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:10:46,325 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:10:46,327 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:11:01,669 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:11:01,670 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:11:08,762 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:11:08,762 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:11:08,765 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:11:08,765 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:11:17,066 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:11:17,067 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:11:32,403 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:11:32,404 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:11:47,738 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:11:47,739 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:12:03,062 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:12:03,063 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:12:18,404 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:12:18,405 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:12:33,740 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:12:33,740 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:12:49,092 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:12:49,092 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:13:04,431 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:13:04,432 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:13:19,756 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:13:19,756 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:13:35,084 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:13:35,085 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:13:50,432 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:13:50,433 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:14:05,766 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:14:05,766 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:14:21,335 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:14:21,336 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:14:36,682 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:14:36,682 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:14:37,900 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:14:37,900 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:14:37,902 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:14:37,902 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:14:51,999 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:14:51,999 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:15:07,330 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:15:07,331 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:15:22,741 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:15:22,741 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:15:24,791 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:15:24,791 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:15:24,793 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:15:24,793 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:15:38,061 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:15:38,062 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:15:51,224 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:15:51,224 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:15:51,226 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:15:51,226 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:15:53,393 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:15:53,393 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:16:08,735 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:16:08,736 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:16:24,063 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:16:24,064 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:16:39,404 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:16:39,405 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:16:54,802 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:16:54,803 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:17:10,145 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:17:10,145 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:17:17,563 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:17:17,563 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:17:17,566 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:17:17,566 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:17:22,533 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:17:22,534 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:17:22,539 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:17:22,539 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:17:25,474 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:17:25,475 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:17:40,864 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:17:40,864 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:17:43,477 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:17:43,477 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:17:43,481 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:17:43,481 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:17:56,158 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:17:56,158 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:17:56,160 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:17:56,160 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:17:56,193 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:17:56,194 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:17:59,294 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:17:59,294 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:17:59,297 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:17:59,297 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:18:01,823 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:18:01,823 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:18:01,825 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:18:01,825 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:18:04,658 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:18:04,658 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:18:04,661 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:18:04,661 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:18:11,517 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:18:11,517 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:18:26,866 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:18:26,867 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:18:38,469 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:18:38,469 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:18:38,472 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:18:38,472 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:18:42,193 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:18:42,194 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:18:49,567 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:18:49,567 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:18:49,569 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:18:49,569 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:18:56,999 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:18:56,999 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:18:57,001 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:18:57,001 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:18:57,525 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:18:57,525 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:19:08,115 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:19:08,116 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:19:08,117 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:19:08,117 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:19:10,511 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:19:10,511 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:19:10,514 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:19:10,514 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:19:12,857 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:19:12,858 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:19:28,199 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:19:28,201 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:19:34,038 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:19:34,038 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:19:34,040 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:19:34,040 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:19:43,139 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:19:43,140 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:19:43,140 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,141 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,141 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,142 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,142 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,143 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,143 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,144 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,144 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,145 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,145 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:43,147 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:19:43,147 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:19:43,532 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:19:43,533 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:19:46,440 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:46,441 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:46,442 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:46,996 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:19:46,997 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:19:46,999 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:19:46,999 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:19:47,785 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:47,786 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:47,787 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-15 19:19:58,862 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:19:58,863 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:20:14,221 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:20:14,222 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:20:21,061 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:20:21,061 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:20:21,064 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:20:21,064 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:20:24,601 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:20:24,601 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:20:24,605 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:20:24,605 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:20:29,572 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:20:29,573 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:20:44,919 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:20:44,920 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:20:58,023 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:20:58,023 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:20:58,026 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:20:58,026 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:21:00,300 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:21:00,302 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:21:16,644 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:21:16,644 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:21:31,968 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:21:31,969 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:21:46,069 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:21:46,069 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:21:46,217 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:21:46,217 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:21:47,318 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:21:47,318 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:22:02,637 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:22:02,638 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:22:17,977 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:22:17,977 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:22:33,292 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:22:33,292 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:22:48,634 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:22:48,635 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:23:03,980 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:23:03,981 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:23:19,313 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:23:19,313 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:23:34,649 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:23:34,650 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:23:49,978 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:23:49,979 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:24:05,304 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:24:05,304 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:24:20,627 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:24:20,628 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:24:35,974 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:24:35,974 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:24:51,315 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:24:51,316 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:25:06,649 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:25:06,651 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:25:21,991 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:25:21,991 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:25:37,316 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:25:37,316 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:25:52,643 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:25:52,644 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:26:07,987 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:26:07,988 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:26:23,329 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:26:23,329 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:26:38,654 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:26:38,655 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:26:53,988 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:26:53,990 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:27:09,322 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:27:09,322 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:27:24,642 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:27:24,642 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:27:39,975 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:27:39,977 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:27:55,319 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:27:55,319 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:28:10,657 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:28:10,659 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:28:25,989 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:28:25,990 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:28:37,529 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:28:37,529 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:28:37,532 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:28:37,532 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:28:40,002 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:28:40,002 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:28:40,005 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:28:40,005 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:28:41,337 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:28:41,338 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:28:49,522 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:28:49,522 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:28:49,598 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:28:49,598 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:28:56,662 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:28:56,663 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:29:11,999 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:29:12,001 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:29:15,738 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:29:15,738 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:29:15,788 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:29:15,788 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:29:27,334 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:29:27,336 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:29:42,681 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:29:42,681 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:29:50,562 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:29:50,562 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:29:50,563 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-15 19:29:50,563 DEBUG   SenderThread:55877 [sender.py:send():303] send: history
+2023-03-15 19:29:50,563 DEBUG   SenderThread:55877 [sender.py:send():303] send: summary
+2023-03-15 19:29:50,564 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:29:50,565 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:29:50,565 INFO    SenderThread:55877 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-15 19:29:50,999 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/wandb-summary.json
+2023-03-15 19:29:58,010 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:29:58,010 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:30:14,356 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:30:14,356 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:30:29,709 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:30:29,710 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:30:34,447 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: resume
+2023-03-15 19:30:34,447 INFO    HandlerThread:55877 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-03-15 19:30:34,495 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: pause
+2023-03-15 19:30:34,495 INFO    HandlerThread:55877 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-03-15 19:30:45,046 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:30:45,046 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:31:00,394 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:31:00,394 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:31:15,746 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:31:15,746 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:31:31,113 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:31:31,114 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:31:46,459 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:31:46,460 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:32:01,808 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:32:01,808 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:32:17,148 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:32:17,148 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:32:32,501 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:32:32,502 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:32:47,850 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:32:47,850 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:33:03,183 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:33:03,183 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:33:18,504 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:33:18,505 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:33:33,849 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:33:33,849 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:33:49,191 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:33:49,192 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:34:04,523 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:34:04,525 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:34:19,854 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:34:19,855 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:34:35,193 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:34:35,194 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:34:50,523 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:34:50,525 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:35:05,889 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:35:05,890 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:35:21,325 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:35:21,325 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:35:36,822 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:35:36,823 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:35:52,296 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-15 19:35:52,296 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: stop_status
+2023-03-15 19:36:04,963 DEBUG   SenderThread:55877 [sender.py:send():303] send: exit
+2023-03-15 19:36:04,963 INFO    SenderThread:55877 [sender.py:send_exit():442] handling exit code: 0
+2023-03-15 19:36:04,964 INFO    SenderThread:55877 [sender.py:send_exit():444] handling runtime: 3
+2023-03-15 19:36:04,964 INFO    SenderThread:55877 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-15 19:36:04,965 INFO    SenderThread:55877 [sender.py:send_exit():450] send defer
+2023-03-15 19:36:04,965 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,965 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 0
+2023-03-15 19:36:04,966 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,966 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-03-15 19:36:04,966 INFO    SenderThread:55877 [sender.py:transition_state():463] send defer: 1
+2023-03-15 19:36:04,966 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,966 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 1
+2023-03-15 19:36:04,966 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,966 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-03-15 19:36:04,966 INFO    SenderThread:55877 [sender.py:transition_state():463] send defer: 2
+2023-03-15 19:36:04,966 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,966 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 2
+2023-03-15 19:36:04,966 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,966 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-03-15 19:36:04,967 INFO    SenderThread:55877 [sender.py:transition_state():463] send defer: 3
+2023-03-15 19:36:04,967 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,967 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 3
+2023-03-15 19:36:04,967 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,967 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-03-15 19:36:04,967 INFO    SenderThread:55877 [sender.py:transition_state():463] send defer: 4
+2023-03-15 19:36:04,967 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,967 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 4
+2023-03-15 19:36:04,967 DEBUG   SenderThread:55877 [sender.py:send():303] send: summary
+2023-03-15 19:36:04,967 INFO    SenderThread:55877 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-15 19:36:04,968 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,968 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-03-15 19:36:04,968 INFO    SenderThread:55877 [sender.py:transition_state():463] send defer: 5
+2023-03-15 19:36:04,968 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,968 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 5
+2023-03-15 19:36:04,968 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,968 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-03-15 19:36:04,968 INFO    SenderThread:55877 [sender.py:transition_state():463] send defer: 6
+2023-03-15 19:36:04,968 DEBUG   HandlerThread:55877 [handler.py:handle_request():139] handle_request: defer
+2023-03-15 19:36:04,968 INFO    HandlerThread:55877 [handler.py:handle_request_defer():162] handle defer: 6
+2023-03-15 19:36:04,968 DEBUG   SenderThread:55877 [sender.py:send_request():317] send_request: defer
+2023-03-15 19:36:04,968 INFO    SenderThread:55877 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-03-15 19:36:05,746 INFO    Thread-13 :55877 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/dynamic_risk/src/wandb/run-20230315_184352-3lawjqin/files/wandb-summary.json

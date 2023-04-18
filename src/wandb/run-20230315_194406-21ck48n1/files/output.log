@@ -1,0 +1,9 @@
+[2023-03-15 19:44:17] INFO:
+                      Loaded artifact: deduped_dataframe:v0 to train the ML model.
+                      The description of the artifact is: The merged dataframe after duplicated values have been removed.
+[2023-03-15 19:44:17] INFO: One-hot encoding applied to 'corporation' column
+[2023-03-15 19:44:17] INFO: Standardization applied to numerical columns: lastmonth_activity, lastyear_activity, number_of_employees
+[2023-03-15 19:44:17] INFO: Data preprocessing complete
+[2023-03-15 19:44:17] INFO: Mean AUC of model: 0.65 +/- 0.45
+[2023-03-15 19:44:18] INFO: Saved trained model @../practicemodels
+[2023-03-15 19:44:18] INFO: Logged trained model on WANDB in run_15_03_2023_19_44_06_model_training

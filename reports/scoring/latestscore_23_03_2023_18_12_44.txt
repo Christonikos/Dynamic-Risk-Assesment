@@ -1,0 +1,4 @@
+Scoring date: 23_03_2023_18_12_44
+Testing dataset shape: (5, 8)
+Model used: LogisticRegression(random_state=0, solver='liblinear')
+F1 on test data: 1.0

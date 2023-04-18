@@ -1,0 +1,503 @@
+[2023-03-14 20:20:27] INFO:
+                  Loaded artifact: deduped_dataframe:v0 to train the ML model.
+                  The description of the artifact is: The merged dataframe after duplicated values have been removed.
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'lsid'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1344, in fit
+    X, y = self._validate_data(X, y, accept_sparse='csr', dtype=_dtype,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/base.py", line 433, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 814, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/utils/validation.py", line 616, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/pandas/core/generic.py", line 2064, in __array__
+    return np.asarray(self._values, dtype=dtype)
+ValueError: could not convert string to float: 'nciw'
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:610: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details:
+Traceback (most recent call last):
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 593, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1350, in fit
+    multi_class = _check_multi_class(self.multi_class, solver,
+  File "/Users/christoszacharopoulos/anaconda3/envs/dynamic_risk/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 470, in _check_multi_class
+    raise ValueError("multi_class should be 'multinomial', 'ovr' or "
+ValueError: multi_class should be 'multinomial', 'ovr' or 'auto'. Got warn.
+  warnings.warn("Estimator fit failed. The score on this train-test"
